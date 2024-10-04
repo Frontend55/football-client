@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/tailwindcss',
-    "@nuxtjs/ngrok"
   ],
   postcss: {
     plugins: {
@@ -26,5 +25,4 @@ export default defineNuxtConfig({
       redirect: '/major'
     }
   },
-  ngrok: {},
 })
