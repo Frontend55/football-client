@@ -23,6 +23,6 @@ export default defineNuxtConfig({
   routeRules: {
     "/": {
       redirect: '/major'
-    }
+    },
   },
 })
